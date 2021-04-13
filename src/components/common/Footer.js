@@ -14,18 +14,19 @@ function Footer() {
       <ul>
         <li><a href="https://www.facebook.com/nwloopfest">Facebook</a></li>
         <li><a href="https://www.youtube.com/channel/UCgcYGCINDGbFHlQqpwFlryQ">Youtube</a></li>
+        <li><a href="mailto:info@nwloopfest.org">Email</a></li>
         <li style={{display:"none"}}>
-        <div id="mc_embed_signup">
-<form action="https://nwloopfest.us2.list-manage.com/subscribe/post?u=c43d8d031a3bc4e079f9bee86&amp;id=0631cb57df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
-    <div id="mc_embed_signup_scroll">
-	<label htmlFor="mce-EMAIL">Subscribe</label>
-	<input type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required ></input>
-    <div style={{position: "absolute", left: "-5000px"}} aria-hidden="true"><input type="text" name="b_c43d8d031a3bc4e079f9bee86_0631cb57df" tabIndex="-1" defaultValue=""></input></div>
-    <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"></input></div>
-    </div>
-</form>
-</div>
-</li>
+          <div id="mc_embed_signup">
+            <form action="https://nwloopfest.us2.list-manage.com/subscribe/post?u=c43d8d031a3bc4e079f9bee86&amp;id=0631cb57df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                <div id="mc_embed_signup_scroll">
+              <label htmlFor="mce-EMAIL">Subscribe</label>
+              <input type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required ></input>
+                <div style={{position: "absolute", left: "-5000px"}} aria-hidden="true"><input type="text" name="b_c43d8d031a3bc4e079f9bee86_0631cb57df" tabIndex="-1" defaultValue=""></input></div>
+                <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"></input></div>
+                </div>
+            </form>
+          </div>
+        </li>
       </ul>
     </div>
     <div className="col-sm">

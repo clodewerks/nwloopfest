@@ -33,6 +33,11 @@ function Header() {
         Artists
       </NavLink>
       </li>
+      <li className="nav-item">
+      <NavLink activeStyle={activeStyle} to="/getinvolved">
+        Get Involved
+      </NavLink>
+      </li>
     </ul>
     </div>
     </nav>
