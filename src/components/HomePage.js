@@ -9,8 +9,9 @@ function HomePage() {
     <div className="container">
     <div className="container center">
     <h2>2021 Festival: </h2>
-    <p>Coming this Summer, details TBA</p>
-    <p>In the meantime, you can watch <a href="/fests">performances from previous years here</a>!</p>
+    <p>August 28th and 29th Online and in Person!</p>
+    <p>Venue TBA</p>
+    <p>Sponsored by <a href="https://www.liveloop.live/" target="_blank" rel="noopener noreferrer">LiveLoop</a>!</p>
     </div>
     </div>
     </>
