@@ -1,5 +1,28 @@
 const fests = [
     {
+      year: 2021,
+      day:"August 28th and 29th",
+      venue: "Online, World Famous Kenton Club",
+      performances:[
+        {artist:"Twenty Three Suns", link:"https://twentythreesuns1.bandcamp.com/album/experiments-in-folk-technology"},
+        {artist:"Gabe Schliffer", link:"https://www.facebook.com/sugarpineband"},
+        {artist:"The Exosphere Project", link:"https://store.cdbaby.com/cd/exosphereproject"},
+        {artist:"Clodewerks", link:"http://www.clodewerks.com"},
+        {artist:"Transparent Aluminum ", link:"https://transparentaluminum.bandcamp.com/"},
+        {artist:"Gnostic Evolution", link:"https://www.youtube.com/channel/UCjU7pm1OyVzCqAV2eZ1Gh7w"},
+        {artist:"lambent", link:"https://linktr.ee/nazscreamous"},
+        {artist:"Annie Sea", link:"http://annieseamusic.com/"},
+        {artist:"Jake Soffer", link:"http://www.jakesoffer.com"},
+        {artist:"Dakil", link:"https://linktr.ee/dakil"},
+        {artist:"Rejyna", link:"http://rejyna.com"},
+        {artist:"Pedeplei", link:"https://m.facebook.com/PEDEPLEI/"},
+        {artist:"Omar Soriano", link:"https://youtube.com/channel/UCsaNCxxozHzZ8SsQ28FILEQ"}
+      ],
+      sponsors:[{sponsor:"LiveLoop",link:"http://liveloop.live"}],
+      attendance:0,
+      revenue:0
+    },
+    {
       year: 2020,
       day:"October 24th and 25th",
       venue: "Online",

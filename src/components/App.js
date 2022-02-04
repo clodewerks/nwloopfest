@@ -19,7 +19,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" component={AboutPage} />
-        <Route exact path="/donate" render={() => (window.location = "https://givebutter.com/2020nwloopfest")} />
+        <Route exact path="/donate" render={() => (window.location = "https://givebutter.com/2021nwloopfest")} />
         <Redirect from="/about-page" to="about" />
         <Route path = "/artists/" component={ArtistPage} />
         <Route path = "/fests/" component={FestsPage} /> 
