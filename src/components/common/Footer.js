@@ -31,8 +31,8 @@ function Footer() {
     </div>
     <div className="col-sm">
       <h4>Donate</h4>
-      <li><a href="https://givebutter.com/2020nwloopfest">Online</a></li>
-      <li>By Texting "loop" to (202) 858-1233</li>
+      <li><a href="https://givebutter.com/2021nwloopfest">Online</a></li>
+      <li>By Texting "loops" to (202) 858-1233</li>
     </div>
   </div>
     </div>
