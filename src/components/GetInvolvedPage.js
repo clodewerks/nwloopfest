@@ -9,9 +9,9 @@ class GetInvolvedPage extends React.Component {
         </div>
         <div className="container">
         <h3>Play</h3>
-        <p>Drop an email if you are interested in being notified when applications open: <a href="mailto:info@nwloopfest.org">info@nwloopfest.org</a></p>
+        <p>Reach out to know when applications open for the next festival: <a href="mailto:info@nwloopfest.org">info@nwloopfest.org</a> or <a href="https://discord.gg/9dmc5TDKu3">join our Discord Server</a>.</p>
         <h3>Volunteer</h3>
-        <p>We are always looking for folks to help with planning, promoting, and running the event. If you would like to help out, contact us at <a href="mailto:info@nwloopfest.org">info@nwloopfest.org</a>.</p>
+        <p>We are always looking for folks to help with planning, promoting, and running the event. If you would like to help out, contact us at <a href="mailto:info@nwloopfest.org">info@nwloopfest.org</a> or <a href="https://discord.gg/9dmc5TDKu3">join our Discord Server</a>.</p>
         <h3>Sponsor</h3>
         <p>Loopfest is made possible through our wonderful sponsors. If you would like to become a sponsor, contact us at <a href="mailto:info@nwloopfest.org">info@nwloopfest.org</a>.</p>
         </div>

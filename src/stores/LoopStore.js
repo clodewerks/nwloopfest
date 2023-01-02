@@ -1,16 +1,49 @@
 const fests = [
     {
+      year: 2022,
+      day:"August 26th through 28th",
+      venue: "Online, Corvallis, and Portland",
+      performances:[
+        {artist:"Alexandrite", link:"https://www.youtube.com/watch?v=KlQrY0rIWpA"},
+        {artist:"Clodewerks", link:"https://www.youtube.com/watch?v=-Vd5900vs7k"},
+        {artist:"David Binning", link:""},
+        {artist:"Exosphere Project", link:"https://www.youtube.com/watch?v=EAW6JcL62WE"},
+        {artist:"F. Botello", link:"https://www.youtube.com/watch?v=7azKixTjhVU"},
+        {artist:"Holus Bolus", link:"https://www.youtube.com/watch?v=DdBLI-XOrxs"},
+        {artist:"Iconoplasty", link:"https://www.youtube.com/watch?v=8X_nwTFFa3I"},
+        {artist:"Inertia Distal", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=4317s"},
+        {artist:"Instagon", link:"https://www.youtube.com/watch?v=blzVULb2lqc"},
+        {artist:"Jake Soffer", link:"https://www.youtube.com/watch?v=k9eTaG561qg"},
+        {artist:"Jijo del Mais", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=499s"},
+        {artist:"Libracello", link:"https://www.youtube.com/watch?v=tOPIDyOBbKM"},
+        {artist:"Luthor Maggot", link:"https://www.youtube.com/watch?v=qDuPmFc8zX0"},
+        {artist:"Nuanzs", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=5969s"},
+        {artist:"Pedeplei", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=2782s"},
+        {artist:"Rejyna", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=11248s"},
+        {artist:"Sean Holt", link:"https://www.youtube.com/watch?v=NbEKaWOrJFs"},
+        {artist:"Shifting Harbor", link:"https://www.youtube.com/watch?v=V8ooctgbhkY"},
+        {artist:"Spec", link:"https://www.youtube.com/watch?v=K1XEui6XkPU"},
+        {artist:"The Illusion of Free Will", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=7672s"},
+        {artist:"Transparent Aluminum", link:"https://www.youtube.com/watch?v=NVbQVd6cmRQ"},
+        {artist:"Twenty Three Suns", link:"https://www.youtube.com/watch?v=ceIV_UM2Mq4"},
+        {artist:"Violoncheloops", link:"https://www.youtube.com/watch?v=yKwgegx7XLc&t=9344s"}
+      ],
+      sponsors:[],
+      attendance:0,
+      revenue:0
+    },
+    {
       year: 2021,
       day:"August 28th and 29th",
-      venue: "Online, World Famous Kenton Club",
+      venue: "Online, Mayfly Bottle Shop",
       performances:[
-        {artist:"Twenty Three Suns", link:"https://twentythreesuns1.bandcamp.com/album/experiments-in-folk-technology"},
-        {artist:"Gabe Schliffer", link:"https://www.facebook.com/sugarpineband"},
+        {artist:"Twenty Three Suns", link:"https://www.youtube.com/watch?v=mMhkLFQFryc"},
+        {artist:"Gabe Schliffer", link:"https://www.youtube.com/watch?v=mVGYWY-zfmI"},
         {artist:"The Exosphere Project", link:"https://store.cdbaby.com/cd/exosphereproject"},
         {artist:"Clodewerks", link:"http://www.clodewerks.com"},
-        {artist:"Transparent Aluminum ", link:"https://transparentaluminum.bandcamp.com/"},
-        {artist:"Gnostic Evolution", link:"https://www.youtube.com/channel/UCjU7pm1OyVzCqAV2eZ1Gh7w"},
-        {artist:"lambent", link:"https://linktr.ee/nazscreamous"},
+        {artist:"Transparent Aluminum ", link:"https://www.youtube.com/watch?v=VX51R8vfVvg"},
+        {artist:"Gnostic Evolution", link:"https://www.youtube.com/watch?v=e9qSm23JjUo"},
+        {artist:"lambent", link:"https://www.youtube.com/watch?v=zzlXXd2ZXDo"},
         {artist:"Annie Sea", link:"http://annieseamusic.com/"},
         {artist:"Jake Soffer", link:"http://www.jakesoffer.com"},
         {artist:"Dakil", link:"https://linktr.ee/dakil"},
@@ -225,29 +258,149 @@ const fests = [
   ];
   
   const artists = [
-        {
-        name:"Jake Soffer",
-        location:"Portland, Oregon",
-        desc:"Sleepy guitar looping music.",
-        url:"https://jakesoffer.com"
-        },
-        {
-        name:"Twenty Three Suns",
-        location:"Portland, Oregon",
-        desc:"Twenty Three Suns blends ambient, progressive, krautrock, and experimental music into extended instrumental suites.",
-        url:"https://m.facebook.com/pages/category/Musician-Band/Twenty-Three-Suns-207616279278682/"
+    {
+      name:"Iconoplasty",
+      location:"Ashland",
+      desc:"Iconoplasty was born when rock guitarist Josh Gross had a conversation with mashup DJ Greg Gillis (Girl Talk) about his laptop live-mix techniques, and became curious if it was possible to emulate that constantly evolving dance-mix style with live instruments and a loop pedal instead of software and samples. The answer was yes. Instead of the slow and meticulous piece-by-piece building of single songs that many live-loopers pursue, Iconoplasty performs like a DJ, executing seamless longform compositions with constantly evolving blends of electronic beats, surf and rock guitar riffs, ambient noise, and mashed-up bits of pop songs. It is a sound frequently compared to indie bands like Ratatat and El Ten Eleven when on tape, and one so hypnotically layered and complex live that audiences often struggle to believe it comes from a single player and not pre-recorded backing tracks. Iconoplasty is based in Southern Oregon, and has performed throughout the western US, including at Treefort Music Festival, Denver Psych Fest, Y2K World Loop Fest, and the NW Loopfest.",
+      url:"https://thejoshgross.org/bands/iconoplasty/"
+      },
+      {
+      name:"HOLUS BOLUS",
+      location:"Crescent City, CA",
+      desc:"One-Man-Psychedelic-Acoustiloop (live looping with an acoustic drumkit, guitar, percussion, and vocals)",
+      url:"http://www.holusbolus.com"
+      },
+      {
+      name:"Jijo del Mais",
+      location:"Guadalajara, Mexico",
+      desc:"Live Looping & Candela all the way from Mexico, mixing traditional with experimental music.",
+      url:"https://www.facebook.com/triplooporganico"
+      },
+      {
+      name:"Jake Soffer",
+      location:"Portland",
+      desc:"Known for his uplifting melodies and expressive grooves, guitarist and composer Jake Soffer draws from the sounds of folk/roots, ambient and new age to create a unique, non-lyrical musical voice. Soffer released his debut studio album Guitar In A Room in 2021. Maintaining a focus on melody while immersed in ethereal textures, the album features 11 arrangements for electric guitar, forming a calm musical ecosystem of effect-based soundscapes. In 2020, Soffer uploaded an original arrangement of Hide and Seek by Imogen Heap to YouTube, which garnered critical acclaim and thousands of views from fans across the world.",
+      url:"https://jakesoffer.com"
+      },
+      {
+      name:"Luthor Maggot",
+      location:"Corvallis currently; NYC ofiginally",
+      desc:"Modular Synthesizers, old & new, and looper",
+      url:"https://www.facebook.com/LuthorMaggot"
+      },
+      {
+      name:"The Exosphere Project",
+      location:"Portland, OR",
+      desc:"The Exosphere Project performs (mostly) mellow instrumental guitar music.  The EP plays relaxing, spacey jams with the potential to go in many unexpected and exciting directions.",
+      url:"https://www.youtube.com/channel/UC5fDJUE7N3R-QAJbPVM9Tnw"
+      },
+      {
+      name:"Twenty Three Suns ",
+      location:"Portland ",
+      desc:"Loop based ambient/progressive/psychedelic instrumental music",
+      url:"https://www.facebook.com/23suns/"
+      },
+      {
+      name:"Bassappella ",
+      location:"Washington DC",
+      desc:"Live looped ambient groove",
+      url:"https://www.bassappella.com"
+      },
+      {
+      name:"Rejyna",
+      location:"Burbank, CA",
+      desc:"Rejyna performs using vocals, guitars & drums, all live looped using Looperlative and JamMan Solo XT synced and unsynced loopers.",
+      url:"http://rejyna.com"
+      },
+      {
+      name:"Spec",
+      location:"Portland",
+      desc:"Spec uses multiple lines of audio going in and out of Max MSP in a custom looping patch he created to make an improvised sonic assault / warm bath to the ears accompanied by custom visualizations and synchronized lights.",
+      url:"https://soundcloud.com/mikeymasonic"
+      },
+      {
+      name:"F. Botello",
+      location:"Chula Vista/Tijuana",
+      desc:"Through the use of loops and loop based processing F. Botello explores questions of identity, ancestry, memory, change and loss. ",
+      url:"http://franciscobotello.com/"
+      },
+      {
+      name:"Alexandrite",
+      location:"Portland, OR",
+      desc:"Poly-rhythmic pulses produce programmed propulsions for polyphonic polygons to prance! FM Synthesis designed and sequenced on the Elektron Digitone is at the core of Alexandrite's performance. Alexandrite wishes to warp sound waves in such a wonky way that we find ourselves entranced and moving within wobbling worlds of lopsided beats.",
+      url:"https://www.alexandrite.xyz"
+      },
+      {
+      name:"Instagon",
+      location:"Miami, AZ ",
+      desc:"A live sound improvisational experience created with multiple participants...never rehearsed or repeated. Founded by California born conceptual artist LOB in 1993, Instagon has played over 800 sessions and had nearly as many members involved.  Each performance is unique and an aural experience.   For the NW Loopfest, Lob has plans for a group of 5 - 7  individual sound artists all utilizing different aspects of looping...combined via a \"mixer set\" performance to create a one of a kind soundscape with the live source material being sent to the mixer. ",
+      url:"https://www.instagon.com"
+      },
+      {
+      name:"Libracello",
+      location:"Eugene",
+      desc:"Libracello blends live looping with cello, violin, guitar and electronic beats. Take a journey through cinematic soundscapes blended together in a orchestral amalgamation of melodies. The cello strikes at the heart, while the violin takes the mind on a flight into otherworldly realms.",
+      url:"https://gabeschliffer.bandcamp.com/"
+      },
+      {
+      name:"Transparent Aluminum ",
+      location:"Portland ",
+      desc:"Experimental music played with electronic hardware instruments. ",
+      url:"https://transparentaluminum.bandcamp.com"
+      },
+      {
+      name:"Sean Hølt",
+      location:"Portland Oregon ",
+      desc:"Dark Ambient",
+      url:"https://sean-holt.bandcamp.com"
+      },
+      {
+      name:"Clodewerks",
+      location:"Portland",
+      desc:"Clodewerks is Kyle Linneman, trumpet player and producer. Kyle combines his passion for trumpet and electronic music into a lush and unique sound. Live, Clodewerks combines looping, samples, and live effects to make an immersive experience.",
+      url:"https://clodewerks.com/"
+      },
+      {
+      name:"The Illusion Of Free Will",
+      location:"Mexico",
+      desc:"The Illusion Of Free Will is Ricardo Vela's Live looping ambient project Using loops & layers, Tiofw creates soundscapes to lose yourself in...",
+      url:"https://www.youtube.com/theillusionoffreewill"
+      },
+      {
+      name:"Violoncheloops",
+      location:"Guadalajara, México",
+      desc:"Chamber Ambient Electronica",
+      url:"https://violoncheloops.com"
+      },
+      {
+      name:"Nuanzs",
+      location:"Mexico City",
+      desc:"\"Experimental live production performance based on improvisation with vocals and radio as sound sources and using techniques as live sampling, slicing, granular synthesis, finger drumming and live looping.",
+      url:"https://www.youtube.com/channel/UCsaNCxxozHzZ8SsQ28FILEQ"
+      },
+      {
+      name:"Shifting Harbor",
+      location:"Portland",
+      desc:"The sounds of Shifting Harbor are evolving sonic landscapes rotating through time. The blending of manipulated  textures and space can have the affect of observing memories that may or may not be your own.  Their second full length album, Cycle of Return was released in 2022 on Anima Recordings. The album is based on the lifecycles of the Oregon Cascades mountain range.",
+      url:"https://shiftingharbor.bandcamp.com/"
+      },
+      {
+      name:"David Binnig",
+      location:"Portland, OR",
+      desc:"Processed trumpet (with other horns and found percussion), played through pitch-shifting/harmony, looping, and long delays; drawing on fourth-world ambience, medieval organum, and modal jazz.",
+      url:"https://dbinnig.com"
+      },
+      {
+        name:"Pedeplei",
+        location:"Guadalajara, Mexico",
+        desc:"Found sound electrónica that ranges from ambient to EDM.",
+        url:"https://israelpmusic.com/"
         },
         {
         name:"Lambent",
         location:"Bali, Indonesia",
         desc:"Improv live looping utilizing keyboard, synth, modular, guitar, electric drums, and vocals.",
         url:"https://m.facebook.com/lambentmusic/"
-        },
-        {
-        name:"Clodewerks",
-        location:"Portland, Oregon",
-        desc:" Clodewerks is Kyle Linneman, trumpet player and producer. Kyle combines his passion for trumpet and electronic music into a lush and unique sound.  Live, Clodewerks combines looping, samples, and live effects to make an immersive experience.",
-        url:"http://www.clodewerks.com"
         },
         {
         name:"Oleada",
@@ -267,12 +420,7 @@ const fests = [
         desc:"Audio visual Live Looping set using clarinet and a custom software which I created and available to others.",
         url:"www.liveloop.live"
         },
-        {
-        name:"Pedeplei",
-        location:"Guadalajara, Mexico",
-        desc:"Found sound electrónica that ranges from ambient to EDM.",
-        url:"https://israelpmusic.com/"
-        },
+        
         {
         name:"Waffle Taco",
         location:"Portland, Oregon",
@@ -284,7 +432,8 @@ const fests = [
         location:"Portland, Oregon",
         desc:"Sundog uses samplers, drum pads, bass, ukelele and vocals to make songs from scratch on stage with a looping pedal. Accustomed to working alone, Sundog brings creativity to arrangements, making disparate sounds friends to the same groove.",
         url:"https://youtu.be/cXUTDoTCIlk"
-        },
+        }
+
   ];
   
   // Using CommonJS style export so we can consume via Node (without using Babel-node)

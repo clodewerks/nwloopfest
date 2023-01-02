@@ -13,8 +13,10 @@ function Footer() {
       <h4>Connect with Us</h4>
       <ul>
         <li><a href="https://www.facebook.com/nwloopfest">Facebook</a></li>
+        <li><a href="https://www.instagram.com/nwloopfest">Instagram</a></li>
         <li><a href="https://www.youtube.com/channel/UCgcYGCINDGbFHlQqpwFlryQ">Youtube</a></li>
         <li><a href="mailto:info@nwloopfest.org">Email</a></li>
+        <li><a href="https://discord.gg/9dmc5TDKu3">Discord</a></li>
         <li style={{display:"none"}}>
           <div id="mc_embed_signup">
             <form action="https://nwloopfest.us2.list-manage.com/subscribe/post?u=c43d8d031a3bc4e079f9bee86&amp;id=0631cb57df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
