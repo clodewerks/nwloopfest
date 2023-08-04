@@ -17,6 +17,7 @@ function HomePage() {
             <p>
              
                 Oleada<br/>
+                Lambent<br/>
                 Twenty Three Suns<br/>
                 Ben Beauvais<br/>
                 Gnostic Evolution<br/>
