@@ -1,5 +1,23 @@
 const fests = [
-  
+    {
+      year: 2023,
+      day: "August 19th",
+      venue:"Shaku bar",
+      performances:[
+        
+          {artist:"Oleada", link:""},
+          {artist:"Lambent", link:""},
+          {artist:"Twenty Three Suns", link:""},
+          {artist:"Ben Beauvais", link:""},
+          {artist:"Gnostic Evolution", link:""},
+          {artist:"Exosphere Project", link:""}
+
+        
+      ],
+      sponsors:[],
+      attendance:0,
+      revenue:0
+    },
     {
       year: 2022,
       day:"August 26th through 28th",
