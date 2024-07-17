@@ -1,5 +1,25 @@
 const fests = [
     {
+      year: 2024,
+      day: "September 21st and 22nd",
+      venue:"Shaku Bar and Stage 9", 
+      performances:[
+        {artist:"The Exosphere Project", link:""},
+        {artist:"Oleada", link:""},
+        {artist:"Jake Soffer", link:""},
+        {artist:"Paul Summers", link:""},
+        {artist:"The Other Place", link:""},
+        {artist:"Lambent", link:""},
+        {artist:"Clodewerks", link:""},
+        {artist:"Twenty Three Suns", link:""},
+        {artist:"Transparent Aluminum", link:""},
+        {artist:"corey emil", link:""}
+      ],
+      sponsors:[],
+      attendance:0,
+      revenue:0
+    },
+    {
       year: 2023,
       day: "August 19th",
       venue:"Shaku bar",
@@ -314,7 +334,7 @@ const fests = [
       url:"https://www.youtube.com/channel/UC5fDJUE7N3R-QAJbPVM9Tnw"
       },
       {
-      name:"Twenty Three Suns ",
+      name:"Twenty Three Suns",
       location:"Portland ",
       desc:"Loop based ambient/progressive/psychedelic instrumental music",
       url:"https://www.facebook.com/23suns/"
@@ -362,7 +382,7 @@ const fests = [
       url:"https://gabeschliffer.bandcamp.com/"
       },
       {
-      name:"Transparent Aluminum ",
+      name:"Transparent Aluminum",
       location:"Portland ",
       desc:"Experimental music played with electronic hardware instruments. ",
       url:"https://transparentaluminum.bandcamp.com"
@@ -451,7 +471,25 @@ const fests = [
         location:"Portland, Oregon",
         desc:"Sundog uses samplers, drum pads, bass, ukelele and vocals to make songs from scratch on stage with a looping pedal. Accustomed to working alone, Sundog brings creativity to arrangements, making disparate sounds friends to the same groove.",
         url:"https://youtu.be/cXUTDoTCIlk"
-        }
+        },
+        {
+        name:"Paul Summers",
+        location:"",
+        desc:"",
+        url:""
+        },
+        {
+        name:"The Other Place",
+        location:"",
+        desc:"",
+        url:""
+        },
+        {
+        name:"corey emil",
+        location:"Silverton, OR",
+        desc:"",
+        url:"https://coreyemil.bandcamp.com/album/leviathan-time-split-singles-aron-buzzo-aspca-memorial"
+        },
 
   ];
   
