@@ -11,9 +11,9 @@ const fests = [
         {artist:"The Other Place", link:""},
         {artist:"Lambent", link:""},
         {artist:"Clodewerks", link:""},
-        {artist:"Twenty Three Suns", link:""},
-        {artist:"Transparent Aluminum", link:""},
-        {artist:"corey emil", link:""}
+        {artist:"Twenty Three Suns", link:"https://www.youtube.com/watch?v=ff3v4fzR4wA"},
+        {artist:"Transparent Aluminum", link:"https://studio.youtube.com/video/AIFGq0ziTaY/edit"},
+        {artist:"corey emil", link:"https://www.youtube.com/watch?v=-VTbA_XIxTc"}
       ],
       sponsors:[],
       attendance:0,

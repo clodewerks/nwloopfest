@@ -13,7 +13,10 @@ const FestsPage = props => {
         <b>Performances:</b><br/>
         {fest.performances.map((performance, i)=> { return(
           <>
-          <a className="big-link" href={performance.link} target="_blank"  rel="noopener noreferrer">{performance.artist}</a>
+          {performance.link == "" ? 
+            <a className="big-link" href={performance.link} target="_blank"  rel="noopener noreferrer">{performance.artist}</a> :
+            <a className="big-link" href="#" >{performance.artist}</a> 
+          }
           {i !== fest.performances.length -1 && <>,&nbsp;</> }
           </>
         )})}
