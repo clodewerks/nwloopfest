@@ -5,11 +5,11 @@ function Footer() {
   return (
     <div className="container-fluid footer">
        <div className="row">
-    <div className="col-sm">
+    <div className="col-6">
     <h4>What is NW Loopfest?</h4>
-    <p>NW Loopfest is a Live looping showcase in the beautiful Pacific North West. Featuring local, regional and international looping technology artists.</p>
+    <p>NW Loopfest is a Live looping showcase in the beautiful Pacific North West. Featuring local, regional and international looping technology artists. NW Loopfest celebrates creativity and community, welcoming people of all backgrounds, identities, and abilities.</p>
     </div>
-    <div className="col-sm">
+    <div className="col">
       <h4>Connect with Us</h4>
       <ul>
         <li><a href="https://www.facebook.com/nwloopfest">Facebook</a></li>
@@ -31,7 +31,7 @@ function Footer() {
         </li>
       </ul>
     </div>
-    <div className="col-sm">
+    <div className="col">
       <h4>Donate</h4>
       <li><a href="https://givebutter.com/2021nwloopfest">Online</a></li>
       <li>By Texting "loops" to (202) 858-1233</li>
