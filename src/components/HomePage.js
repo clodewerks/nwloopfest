@@ -8,8 +8,7 @@ function HomePage() {
       </div>
       <div className="container">
         <div className="container center">
-        <h2>See you in 2025!</h2>
-          <p>In the meantime watch some of the <a href="fests">previous years' footage</a>.</p>
+        <h2>Coming October 18th, 2025!</h2>
         </div>
 
       </div>
