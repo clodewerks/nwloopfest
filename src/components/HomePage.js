@@ -8,7 +8,11 @@ function HomePage() {
       </div>
       <div className="container">
         <div className="container center">
-        <h2>Coming October 18th, 2025!</h2>
+        <h2>October 18th, 2025: 12PM-8PM</h2>
+        <h3>Synth Library Portland</h3>
+        <h4>$10-$20 Sliding Scale</h4>
+        <h4>All Ages</h4>
+        <p><a href="https://withfriends.events/event/78wwJexj/nw-loopfest/"  >Get Tickets here!</a></p>
         </div>
 
       </div>
